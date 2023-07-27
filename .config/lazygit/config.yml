@@ -1,0 +1,3 @@
+gui:
+  # single' | 'double' | 'rounded' | 'hidden'
+  border: 'rounded'
