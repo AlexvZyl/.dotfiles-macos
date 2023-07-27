@@ -12,9 +12,11 @@
     "workbench.editor.enablePreview": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.scrollbar.verticalScrollbarSize": 6,
-    "window.titleSeparator": " ~ ",
+    "window.titleSeparator": " | ",
     "terminal.integrated.enableMultiLinePasteWarning": false,
     "explorer.openEditors.visible": 1,
     "workbench.startupEditor": "none",
-    "editor.cursorBlinking": "phase"
+    "editor.cursorBlinking": "phase",
+    "workbench.activityBar.visible": false,
+    "terminal.integrated.tabs.separator": " | "
 }
