@@ -392,5 +392,13 @@
     {
         "key": "shift+cmd+[",
         "command": "-workbench.action.previousEditor"
+    },
+    {
+        "key": "ctrl+f s",
+        "command": "workbench.action.findInFiles"
+    },
+    {
+        "key": "shift+cmd+f",
+        "command": "-workbench.action.findInFiles"
     }
 ]
