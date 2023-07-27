@@ -20,5 +20,6 @@
     "terminal.integrated.tabs.separator": " | ",
     "git.autofetch": true,
     "explorer.confirmDragAndDrop": false,
-    "workbench.activityBar.visible": false
+    "workbench.activityBar.visible": false,
+    "explorer.autoReveal": false
 }
