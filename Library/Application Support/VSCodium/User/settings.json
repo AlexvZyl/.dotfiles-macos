@@ -1,0 +1,20 @@
+{
+    "workbench.iconTheme": "eq-material-theme-icons-light",
+    "editor.minimap.enabled": false,
+    "git.openRepositoryInParentFolders": "always",
+    "workbench.colorTheme": "Tokyo Night",
+    "editor.lineNumbers": "relative",
+    "breadcrumbs.filePath": "off",
+    "workbench.layoutControl.enabled": false,
+    "editor.lightbulb.enabled": false,
+    "breadcrumbs.enabled": false,
+    "notebook.breadcrumbs.showCodeCells": false,
+    "workbench.editor.enablePreview": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.scrollbar.verticalScrollbarSize": 6,
+    "window.titleSeparator": " ~ ",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "explorer.openEditors.visible": 1,
+    "workbench.startupEditor": "none",
+    "editor.cursorBlinking": "phase"
+}
