@@ -134,11 +134,6 @@
         "when": "!terminalFocus"
     },
     {
-        "key": "ctrl+v e",
-        "command": "workbench.files.action.focusOpenEditorsView",
-        "when": "workbench.explorer.openEditorsView.active"
-    },
-    {
         "key": "cmd+k e",
         "command": "-workbench.files.action.focusOpenEditorsView",
         "when": "workbench.explorer.openEditorsView.active"
@@ -371,5 +366,15 @@
     {
         "key": "shift+cmd+z",
         "command": "-redo"
+    },
+    {
+        "key": "ctrl+v e",
+        "command": "workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled"
+    },
+    {
+        "key": "shift+cmd+e",
+        "command": "-workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled"
     }
 ]

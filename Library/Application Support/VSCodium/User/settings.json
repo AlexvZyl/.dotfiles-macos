@@ -17,6 +17,7 @@
     "explorer.openEditors.visible": 1,
     "workbench.startupEditor": "none",
     "editor.cursorBlinking": "phase",
-    "workbench.activityBar.visible": false,
-    "terminal.integrated.tabs.separator": " | "
+    "terminal.integrated.tabs.separator": " | ",
+    "git.autofetch": true,
+    "workbench.activityBar.visible": false
 }
