@@ -19,6 +19,5 @@
     "editor.cursorBlinking": "phase",
     "terminal.integrated.tabs.separator": " | ",
     "git.autofetch": true,
-    "workbench.activityBar.visible": false,
     "explorer.confirmDragAndDrop": false
 }
