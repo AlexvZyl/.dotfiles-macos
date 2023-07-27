@@ -2,7 +2,7 @@
     "workbench.iconTheme": "eq-material-theme-icons-light",
     "editor.minimap.enabled": false,
     "git.openRepositoryInParentFolders": "always",
-    "workbench.colorTheme": "Tokyo Night",
+    "workbench.colorTheme": "Ayu Mirage Bordered",
     "editor.lineNumbers": "relative",
     "breadcrumbs.filePath": "off",
     "workbench.layoutControl.enabled": false,
@@ -19,5 +19,6 @@
     "editor.cursorBlinking": "phase",
     "terminal.integrated.tabs.separator": " | ",
     "git.autofetch": true,
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "workbench.activityBar.visible": false
 }
