@@ -400,5 +400,25 @@
     {
         "key": "shift+cmd+f",
         "command": "-workbench.action.findInFiles"
+    },
+    {
+        "key": "ctrl+r r",
+        "command": "-vscode-neovim.send-cmdline",
+        "when": "neovim.mode == 'cmdline'"
+    },
+    {
+        "key": "ctrl+r r",
+        "command": "editor.action.rename",
+        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "f2",
+        "command": "-editor.action.rename",
+        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "editor.action.showHover",
+        "when": "editorTextFocus"
     }
 ]

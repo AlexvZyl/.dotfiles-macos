@@ -1,5 +1,5 @@
 {
-    "workbench.iconTheme": "eq-material-theme-icons-light",
+    "workbench.iconTheme": "ayu",
     "editor.minimap.enabled": false,
     "git.openRepositoryInParentFolders": "always",
     "workbench.colorTheme": "Ayu Mirage Bordered",
@@ -20,6 +20,15 @@
     "terminal.integrated.tabs.separator": " | ",
     "git.autofetch": true,
     "explorer.confirmDragAndDrop": false,
-    "workbench.activityBar.visible": false,
-    "explorer.autoReveal": false
+    "explorer.autoReveal": false,
+    "errorLens.gutterIconsEnabled": true,
+    "errorLens.gutterIconSize": "130%",
+    "errorLens.messageBackgroundMode": "message",
+    "errorLens.enabledDiagnosticLevels": [
+        "error",
+        "warning",
+        "info",
+        "hint"
+    ],
+    "workbench.activityBar.visible": false
 }
