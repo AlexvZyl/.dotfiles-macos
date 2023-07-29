@@ -14,7 +14,7 @@ do
     associated_space=$sid
     icon="${SPACE_ICONS[i]}"
     icon.padding_left=7
-    icon.padding_right=2
+    icon.padding_right=0
     padding_left=2
     padding_right=2
     label.padding_right=13
