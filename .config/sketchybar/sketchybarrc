@@ -1,0 +1,5 @@
+sketchybar --bar \
+    color=0xFF191C24 \
+    sticky=on \
+    height=20 \
+    shadow=on \
