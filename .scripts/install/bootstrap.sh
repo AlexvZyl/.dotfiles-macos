@@ -18,3 +18,4 @@ git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME submodule update --recursive --
 
 # Run main install script.
 ~/.scripts/install/install.sh
+~/.scripts/install/brew.sh
