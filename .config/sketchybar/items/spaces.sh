@@ -1,0 +1,46 @@
+#!/bin/bash
+
+SPACE_ICONS=("1" "2" "3" "4" "5" "6" "7" "8" "9" "10")
+
+# Destroy space on right click, focus space on left click.
+
+sid=0
+spaces=()
+for i in "${!SPACE_ICONS[@]}"
+do
+  sid=$(($i+1))
+
+  space=(
+    associated_space=$sid
+    icon="${SPACE_ICONS[i]}"
+    icon.padding_left=10
+    icon.padding_right=0
+    padding_left=2
+    padding_right=2
+    label.padding_right=20
+    label.padding_left=5
+    icon.highlight_color=$YELLOW
+    icon.color=$WHITE
+    label.color=$WHITE
+    label.highlight_color=$YELLOW
+    label.font="sketchybar-app-font:Regular:12.0"
+    label.y_offset=-2
+    background.color=$BACKGROUND_1
+    background.border_color=$BLACK
+    background.drawing=off
+    label.drawing=off
+    script="$PLUGIN_DIR/space.sh"
+  )
+
+  sketchybar --add space space.$sid left    \
+             --set space.$sid "${space[@]}" \
+             --subscribe space.$sid mouse.clicked
+done
+
+spaces_bracket=(
+  background.color=$BACKGROUND_1
+  background.border_color=$BLACK
+)
+
+sketchybar --add bracket spaces_bracket '/space\..*/'  \
+           --set spaces_bracket "${spaces_bracket[@]}" \
