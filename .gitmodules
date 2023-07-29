@@ -1,3 +1,6 @@
 [submodule ".config/nvim"]
 	path = .config/nvim
 	url = https://github.com/AlexvZyl/nvim
+[submodule ".private"]
+	path = .private
+	url = https://github.com/AlexvZyl/.private
