@@ -14,17 +14,17 @@ do
     associated_space=$sid
     icon="${SPACE_ICONS[i]}"
     icon.padding_left=10
-    icon.padding_right=0
+    icon.padding_right=3
     padding_left=2
     padding_right=2
-    label.padding_right=20
-    label.padding_left=5
+    label.padding_right=15
+    label.padding_left=0
     icon.highlight_color=$YELLOW
     icon.color=$WHITE
     label.color=$WHITE
     label.highlight_color=$YELLOW
     label.font="sketchybar-app-font:Regular:12.0"
-    label.y_offset=-2
+    label.y_offset=-1
     background.color=$BACKGROUND_1
     background.border_color=$BLACK
     background.drawing=off
@@ -36,11 +36,3 @@ do
              --set space.$sid "${space[@]}" \
              --subscribe space.$sid mouse.clicked
 done
-
-spaces_bracket=(
-  background.color=$BACKGROUND_1
-  background.border_color=$BLACK
-)
-
-sketchybar --add bracket spaces_bracket '/space\..*/'  \
-           --set spaces_bracket "${spaces_bracket[@]}" \
