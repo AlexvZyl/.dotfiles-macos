@@ -8,6 +8,7 @@ front_app=(
   label.color=$WHITE
   associated_display=active
   script="$FRONT_APP_SCRIPT"
+  label.y_offset=1
 )
 
 sketchybar --add item front_app left         \

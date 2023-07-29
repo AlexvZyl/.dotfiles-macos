@@ -9,7 +9,6 @@ calendar=(
   padding_left=15
   update_freq=30
   script="$PLUGIN_DIR/calendar.sh"
-  label.y_offset=1
 )
 
 sketchybar --add item calendar center \
