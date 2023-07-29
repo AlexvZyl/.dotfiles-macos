@@ -29,7 +29,6 @@ bar=(
   sticky=on
   padding_right=10
   padding_left=10
-  margin=-2
   topmost=window
 )
 
@@ -48,7 +47,7 @@ defaults=(
   label.padding_right=$PADDINGS
   padding_right=$PADDINGS
   padding_left=$PADDINGS
-  background.height=20
+  background.height=21
   background.corner_radius=6
   background.border_width=1
   popup.background.border_width=2
@@ -72,6 +71,7 @@ source "$ITEM_DIR/front_app.sh"
 source "$ITEM_DIR/calendar.sh"
 
 # right
+source "$ITEM_DIR/battery.sh"
 source "$ITEM_DIR/wifi.sh"
 
 # Forcing all item scripts to run (never do this outside of sketchybarrc)

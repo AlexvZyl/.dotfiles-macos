@@ -89,7 +89,7 @@ case $@ in
 "WebStorm")
   icon_result=":web_storm:"
   ;;
-"Neovide" | "MacVim" | "Vim" | "VimR")
+"Neovim" | "MacVim" | "Vim" | "VimR")
   icon_result=":vim:"
   ;;
 "Sublime Text")
@@ -245,7 +245,7 @@ case $@ in
 "Spotlight")
   icon_result=":spotlight:"
   ;;
-"Music")
+"Music" | "YouTube Music")
   icon_result=":music:"
   ;;
 "Insomnia")
