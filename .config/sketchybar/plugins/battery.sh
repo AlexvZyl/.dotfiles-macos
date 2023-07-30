@@ -26,6 +26,7 @@ esac
 
 if [[ $CHARGING != "" ]]; then
   ICON=$BATTERY_CHARGING
+  COLOR=$YELLOW
   DRAWING=off
 fi
 

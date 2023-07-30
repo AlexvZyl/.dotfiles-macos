@@ -25,10 +25,10 @@ do
     label.highlight_color=$YELLOW
     label.font="sketchybar-app-font:Regular:12.0"
     label.y_offset=-1
-    background.color=$BACKGROUND_1
+    background.color=$GREY0
     background.border_color=$BLACK
-    background.drawing=off
-    label.drawing=off
+    background.drawing=on
+    label.drawing=on
     script="$PLUGIN_DIR/space.sh"
   )
 
