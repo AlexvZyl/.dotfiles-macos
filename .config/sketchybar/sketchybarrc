@@ -15,21 +15,20 @@ killall helper
 (cd $CONFIG_DIR/helper && make)
 $CONFIG_DIR/helper/helper $HELPER > /dev/null 2>&1 &
 
-# Unload the macOS on screen indicator overlay for volume change
-launchctl unload -F /System/Library/LaunchAgents/com.apple.OSDUIHelper.plist > /dev/null 2>&1 &
-
 # Setting up the general bar appearance of the bar
 bar=(
-  height=26
+  height=27
   color=$BAR_COLOR
-  border_width=0
-  border_color=$BAR_BORDER_COLOR
+  border_width=1
+  border_color=0xFF050607
   shadow=off
   position=top
   sticky=on
   padding_right=10
   padding_left=10
   topmost=window
+  margin=-1
+  y_offset=-1
 )
 
 sketchybar --bar "${bar[@]}"
