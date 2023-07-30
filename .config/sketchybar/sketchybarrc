@@ -20,7 +20,7 @@ bar=(
   height=27
   color=$BAR_COLOR
   border_width=1
-  border_color=$SHADOW
+  border_color=0xFF050607
   shadow=off
   position=top
   sticky=on
@@ -63,6 +63,7 @@ sketchybar --default "${defaults[@]}"
 # left
 source "$ITEM_DIR/apple.sh"
 source "$ITEM_DIR/spaces.sh"
+source "$ITEM_DIR/yabai.sh"
 source "$ITEM_DIR/front_app.sh"
 
 # center
