@@ -31,8 +31,9 @@
         "hint"
     ],
     "window.title": "!Neovim",
-    "python.linting.flake8Enabled": true,
     "python.linting.flake8Args": [
         "--extend-ignore=E501"
-    ]
+    ],
+    "python.linting.flake8CategorySeverity.F": "Warning",
+    "workbench.activityBar.visible": false
 }
