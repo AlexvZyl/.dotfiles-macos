@@ -49,5 +49,6 @@
             "backgroundColor": "theme.editor.selectionBackground"
         }
     },
-    "customizeUI.titleBar": "frameless"
+    "customizeUI.titleBar": "frameless",
+    "workbench.activityBar.visible": false
 }

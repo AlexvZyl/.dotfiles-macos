@@ -21,6 +21,10 @@
         "key": "ctrl+a",
         "command": "editor.action.selectAll",
     },
+    {
+        "key": "ctrl+w c",
+        "command": "workbench.action.closeActiveEditor"
+    }
 
     // Terminal
     {
