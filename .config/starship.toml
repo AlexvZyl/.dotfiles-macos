@@ -1,0 +1,67 @@
+format = """
+[](#C0C8D8)\
+[  ](bg:#C0C8D8 fg:#090c0c)\
+[](bg:#5E81AC fg:#C0C8D8)\
+$directory\
+[](fg:#5E81AC bg:#A3BE8C)\
+$git_branch\
+$git_status\
+[](fg:#A3BE8C bg:#212736)\
+$fill\
+[](fg:#D08770)\
+$username\
+[ ](fg:#EBCB8B bg:#D08770)\
+$hostname\
+[](fg:#C0C8D8 bg:#EBCB8B)\
+$time\
+[](fg:#C0C8D8)\
+\n$character"""
+
+[fill]
+symbol = '-'
+style = 'fg:#2E3440'
+
+[character]
+success_symbol = '[ ](bold green)'
+error_symbol = '[ ](bold red)'
+
+[directory]
+style = "fg:#C0C8D8 bg:#5E81AC"
+format = "[ $path ]($style)"
+truncation_length = 5
+truncation_symbol = "󰉒 /"
+home_symbol = " "
+truncate_to_repo = false
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+[git_branch]
+symbol = ""
+style = "bg:#A3BE8C"
+format = '[[ $symbol $branch ](fg:#090c0c bg:#A3BE8C)]($style)'
+
+[git_status]
+style = "bg:#A3BE8C"
+format = '[[($all_status$ahead_behind )](fg:#090c0c bg:#A3BE8C)]($style)'
+
+[time]
+disabled = false
+time_format = "%R"
+style = "bg:#C0C8D8"
+format = '[[  $time ](fg:#090c0c bg:#C0C8D8)]($style)'
+
+[hostname]
+ssh_only = true
+format = '[󰌘 ](fg:#090c0c bg:yellow)[$ssh_symbol](fg:#090c0c bg:yellow)'
+trim_at = ''
+disabled = false
+
+[username]
+style_user = "bg:#D08770 fg:#090c0c"
+format = '[ ]($style)[$user]($style)'
+disabled = false
+show_always = true
