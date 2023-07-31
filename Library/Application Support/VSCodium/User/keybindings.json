@@ -1,5 +1,38 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
+    // Windows
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.navigateDown",
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.navigateUp",
+    },
+    {
+        "key": "ctrl+h",
+        "command": "workbench.action.navigateLeft",
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.navigateRight",
+    },
+    {
+        "key": "ctrl+a",
+        "command": "editor.action.selectAll",
+    },
+
+    // Terminal
+    {
+        "key": "alt+j",
+        "command": "workbench.action.terminal.resizePaneDown"
+    },
+    {
+        "key": "alt+k",
+        "command": "workbench.action.terminal.resizePaneUp"
+    }
+
+    // LSP
     {
         "key": "tab",
         "command": "selectNextSuggestion",
@@ -13,11 +46,17 @@
     {
         "key": "ctrl+d",
         "command": "editor.action.scrollDownHover",
-        "when": "editorHoverFocused"
+        "when": "editorHoverVisible"
     },
     {
         "key": "ctrl+u",
         "command": "editor.action.scrollUpHover",
-        "when": "editorHoverFocused"
+        "when": "editorHoverVisible"
+    },
+
+    // Editing
+    {
+        "key": "ctrl+s",
+        "command": "workbench.action.files.save"
     },
 ]
