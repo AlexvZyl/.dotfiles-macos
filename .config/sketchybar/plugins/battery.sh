@@ -17,7 +17,7 @@ case ${PERCENTAGE} in
   ;;
   [6-8][0-9]) ICON=$BATTERY_75;
   ;;
-  [3-5][0-9]) ICON=$BATTERY_50
+  [3-5][0-9]) ICON=$BATTERY_50 COLOR=$YELLOW
   ;;
   [1-2][0-9]) ICON=$BATTERY_25; COLOR=$ORANGE
   ;;
@@ -26,7 +26,6 @@ esac
 
 if [[ $CHARGING != "" ]]; then
   ICON=$BATTERY_CHARGING
-  COLOR=$YELLOW
   DRAWING=off
 fi
 
