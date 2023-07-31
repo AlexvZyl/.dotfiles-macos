@@ -12,7 +12,7 @@ export MAGENTA=0xffB48EAD
 export TRANSPARENT=0x00000000
 export CYAN=0xFF8FBCBB
 
-export SHADOW=0x99050607
+export SHADOW=0x77050607
 export BAR_BORDER_COLOR=$SHADOW
 
 export GREY0=0xff242933
@@ -24,7 +24,6 @@ export GRAY=$GREY0
 
 # General bar colors
 export BAR_COLOR=$BLACK
-export BAR_BORDER_COLOR=$GRAY #0xa024273a
 export ICON_COLOR=$YELLOW # Color of all icons
 export LABEL_COLOR=$WHITE # Color of all labels
 export BACKGROUND_1=$GRAY
