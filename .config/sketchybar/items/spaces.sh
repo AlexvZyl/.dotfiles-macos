@@ -13,11 +13,11 @@ do
   space=(
     associated_space=$sid
     icon="${SPACE_ICONS[i]}"
-    icon.padding_left=7
-    icon.padding_right=0
+    icon.padding_left=10
+    icon.padding_right=10
     padding_left=2
     padding_right=2
-    label.padding_right=13
+    label.padding_right=0
     label.padding_left=0
     icon.highlight_color=$YELLOW
     icon.color=$WHITE

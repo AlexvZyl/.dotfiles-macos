@@ -11,14 +11,18 @@ windows_on_spaces () {
   do
     for space in $line
     do
+      ICON_PADDING=10
+      LABEL_PADDING=0
       icon_strip=" "
       apps=$(yabai -m query --windows --space $space | jq -r ".[].app")
       if [ "$apps" != "" ]; then
+        ICON_PADDING=0
+        LABEL_PADDING=15
         while IFS= read -r app; do
           icon_strip+=" $($CONFIG_DIR/plugins/icon_map.sh "$app")"
         done <<< "$apps"
       fi
-      args+=(--set space.$space label="$icon_strip" label.drawing=on)
+      args+=(--set space.$space label="$icon_strip" label.drawing=on label.padding_right=$LABEL_PADDING icon.padding_right=$ICON_PADDING)
     done
   done <<< "$CURRENT_SPACES"
 
