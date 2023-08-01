@@ -49,6 +49,8 @@
             "backgroundColor": "theme.editor.selectionBackground"
         }
     },
-    "customizeUI.titleBar": "frameless",
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontLigatures": true,
+    "window.zoomLevel": 1,
     "workbench.activityBar.visible": false
 }

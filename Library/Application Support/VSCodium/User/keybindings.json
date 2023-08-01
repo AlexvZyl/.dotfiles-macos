@@ -24,7 +24,15 @@
     {
         "key": "ctrl+w c",
         "command": "workbench.action.closeActiveEditor"
-    }
+    },
+    {
+        "key": "ctrl+w v"
+        "command": "workbench.action.splitEditorRight"
+    },
+    {
+        "key": "ctrl+w s"
+        "command": "workbench.action.splitEditorDown"
+    },
 
     // Terminal
     {
