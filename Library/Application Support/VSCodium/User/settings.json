@@ -2,7 +2,6 @@
     "workbench.iconTheme": "ayu",
     "editor.minimap.enabled": false,
     "git.openRepositoryInParentFolders": "always",
-    "workbench.colorTheme": "Ayu Mirage Bordered",
     "editor.lineNumbers": "relative",
     "breadcrumbs.filePath": "off",
     "workbench.layoutControl.enabled": false,
@@ -10,7 +9,6 @@
     "breadcrumbs.enabled": false,
     "notebook.breadcrumbs.showCodeCells": false,
     "workbench.editor.enablePreview": false,
-    "editor.multiCursorModifier": "ctrlCmd",
     "editor.scrollbar.verticalScrollbarSize": 6,
     "window.titleSeparator": " | ",
     "terminal.integrated.enableMultiLinePasteWarning": false,
@@ -51,6 +49,12 @@
     },
     "editor.fontFamily": "JetBrainsMono Nerd Font",
     "editor.fontLigatures": true,
+    "workbench.colorTheme": "Ayu Mirage Bordered",
     "window.zoomLevel": 1,
-    "workbench.activityBar.visible": false
+    "editor.renderLineHighlight": "none",
+    "editor.renderLineHighlightOnlyWhenFocus": true,
+    "terminal.integrated.allowChords": false,
+    "terminal.integrated.commandsToSkipShell": [
+        "workbench.action.closePanel"
+    ]
 }

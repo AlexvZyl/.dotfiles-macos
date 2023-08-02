@@ -26,12 +26,27 @@
         "command": "workbench.action.closeActiveEditor"
     },
     {
-        "key": "ctrl+w v"
+        "key": "ctrl+w v",
         "command": "workbench.action.splitEditorRight"
     },
     {
-        "key": "ctrl+w s"
+        "key": "ctrl+w s",
         "command": "workbench.action.splitEditorDown"
+    },
+    {
+        "key": "shift+l",
+        "command": "workbench.action.nextEditor",
+        "when": "neovim.mode != 'insert'"
+    },
+    {
+        "key": "shift+h",
+        "command": "workbench.action.previousEditor",
+        "when": "neovim.mode != 'insert'"
+    },
+    {
+        "key": "shift+q",
+        "command": "workbench.action.closeActiveEditor",
+        "when": "neovim.mode != 'insert'"
     },
 
     // Terminal
@@ -42,7 +57,7 @@
     {
         "key": "alt+k",
         "command": "workbench.action.terminal.resizePaneUp"
-    }
+    },
 
     // LSP
     {
@@ -70,5 +85,19 @@
     {
         "key": "ctrl+s",
         "command": "workbench.action.files.save"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "actions.find"
+    },
+    {
+        "key": "f1",
+        "command": "workbench.action.toggleMaximizedPanel",
+        "when": "!panelMaximized"
+    },
+    {
+        "key": "f1",
+        "command": "workbench.action.closePanel",
+        "when": "panelMaximized"
     },
 ]
