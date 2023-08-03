@@ -58,5 +58,22 @@
         "workbench.action.closePanel"
     ],
     "errorLens.scrollbarHackEnabled": true,
-    "errorLens.gutterIconSet": "borderless"
+    "errorLens.gutterIconSet": "borderless",
+    
+    "window.titleBarStyle": "native",
+    "apc.electron": {
+        "frame": false
+    },
+    "apc.activityBar": {
+        "size": 35
+    },
+    "apc.sidebar.titlebar": {
+        "height": 28,
+        // "fontSize": 12
+    },
+    "apc.header": {
+        "height": 28,
+        // "fontSize": 14
+    }
+
 }
