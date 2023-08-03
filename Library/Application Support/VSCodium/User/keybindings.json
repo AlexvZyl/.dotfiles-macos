@@ -34,17 +34,17 @@
         "command": "workbench.action.splitEditorDown"
     },
     {
-        "key": "shift+l",
+        "key": "ctrl+shift+l",
         "command": "workbench.action.nextEditor",
         "when": "neovim.mode != 'insert'"
     },
     {
-        "key": "shift+h",
+        "key": "ctrl+shift+h",
         "command": "workbench.action.previousEditor",
         "when": "neovim.mode != 'insert'"
     },
     {
-        "key": "shift+q",
+        "key": "ctrl+shift+q",
         "command": "workbench.action.closeActiveEditor",
         "when": "neovim.mode != 'insert'"
     },
@@ -53,6 +53,11 @@
     {
         "key": "alt+j",
         "command": "workbench.action.terminal.resizePaneDown"
+    },
+    {
+        "key": "alt+j",
+        "command": "workbench.action.toggleMaximizedPanel",
+        "when": "panelMaximized"
     },
     {
         "key": "alt+k",
@@ -73,12 +78,12 @@
     {
         "key": "ctrl+d",
         "command": "editor.action.scrollDownHover",
-        "when": "editorHoverVisible"
+        "when": "editorHoverFocused"
     },
     {
         "key": "ctrl+u",
         "command": "editor.action.scrollUpHover",
-        "when": "editorHoverVisible"
+        "when": "editorHoverFocused"
     },
 
     // Editing
@@ -100,4 +105,14 @@
         "command": "workbench.action.closePanel",
         "when": "panelMaximized"
     },
+    {
+        "key": "ctrl+shift+q",
+        "command": "-workbench.action.quickOpenNavigatePreviousInViewPicker",
+        "when": "inQuickOpen && inViewsPicker"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.showHover",
+        "when": "editorHoverVisible && !editorHoverFocused"
+    }
 ]

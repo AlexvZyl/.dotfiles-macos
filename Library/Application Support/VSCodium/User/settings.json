@@ -1,4 +1,5 @@
 {
+    "editor.inlayHints.enabled": "off",
     "workbench.iconTheme": "ayu",
     "editor.minimap.enabled": false,
     "git.openRepositoryInParentFolders": "always",
@@ -20,7 +21,7 @@
     "explorer.confirmDragAndDrop": false,
     "explorer.autoReveal": false,
     "errorLens.gutterIconsEnabled": true,
-    "errorLens.gutterIconSize": "130%",
+    "errorLens.gutterIconSize": "115%",
     "errorLens.messageBackgroundMode": "message",
     "errorLens.enabledDiagnosticLevels": [
         "error",
@@ -50,11 +51,12 @@
     "editor.fontFamily": "JetBrainsMono Nerd Font",
     "editor.fontLigatures": true,
     "workbench.colorTheme": "Ayu Mirage Bordered",
-    "window.zoomLevel": 1,
     "editor.renderLineHighlight": "none",
     "editor.renderLineHighlightOnlyWhenFocus": true,
     "terminal.integrated.allowChords": false,
     "terminal.integrated.commandsToSkipShell": [
         "workbench.action.closePanel"
-    ]
+    ],
+    "errorLens.scrollbarHackEnabled": true,
+    "errorLens.gutterIconSet": "borderless"
 }
