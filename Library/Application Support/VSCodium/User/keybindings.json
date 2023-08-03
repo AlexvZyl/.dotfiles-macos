@@ -52,7 +52,8 @@
     // Terminal
     {
         "key": "alt+j",
-        "command": "workbench.action.terminal.resizePaneDown"
+        "command": "workbench.action.terminal.resizePaneDown",
+        "when": "panelVisible"
     },
     {
         "key": "alt+j",
@@ -61,7 +62,8 @@
     },
     {
         "key": "alt+k",
-        "command": "workbench.action.terminal.resizePaneUp"
+        "command": "workbench.action.terminal.resizePaneUp",
+        "when": "panelVisible"
     },
 
     // LSP
@@ -114,5 +116,9 @@
         "key": "ctrl+d",
         "command": "editor.action.showHover",
         "when": "editorHoverVisible && !editorHoverFocused"
-    }
+    },
+    {
+        "key": "f2",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
 ]

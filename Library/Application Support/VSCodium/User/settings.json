@@ -1,6 +1,6 @@
 {
     "editor.inlayHints.enabled": "off",
-    "workbench.iconTheme": "ayu",
+    "workbench.iconTheme": "eq-material-theme-icons-light",
     "editor.minimap.enabled": false,
     "git.openRepositoryInParentFolders": "always",
     "editor.lineNumbers": "relative",
@@ -49,6 +49,7 @@
         }
     },
     "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontSize": 13,
     "editor.fontLigatures": true,
     "workbench.colorTheme": "Ayu Mirage Bordered",
     "editor.renderLineHighlight": "none",
@@ -65,15 +66,17 @@
         "frame": false
     },
     "apc.activityBar": {
-        "size": 35
+        // "size": 40,
     },
     "apc.sidebar.titlebar": {
         "height": 28,
         // "fontSize": 12
     },
     "apc.header": {
-        "height": 28,
-        // "fontSize": 14
-    }
-
+        "height": 30,
+        "fontSize": 13
+    },
+    "gruvboxMaterial.darkContrast": "hard",
+    "gruvboxMaterial.darkWorkbench": "flat",
+    "workbench.activityBar.visible": false,
 }
