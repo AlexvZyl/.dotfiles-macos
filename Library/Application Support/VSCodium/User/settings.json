@@ -63,14 +63,14 @@
     
     "window.titleBarStyle": "native",
     "apc.electron": {
-        "frame": false
+        "frame": false,
     },
     "apc.activityBar": {
-        // "size": 40,
+        // "size": 38,
     },
     "apc.sidebar.titlebar": {
-        "height": 28,
-        // "fontSize": 12
+        "height": 30,
+        "fontSize": 12
     },
     "apc.header": {
         "height": 30,
@@ -78,5 +78,6 @@
     },
     "gruvboxMaterial.darkContrast": "hard",
     "gruvboxMaterial.darkWorkbench": "flat",
+    "redhat.telemetry.enabled": false,
     "workbench.activityBar.visible": false,
 }
