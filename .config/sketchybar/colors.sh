@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export BLACK=0xff191C24
+export BLACK=0xff15181E
 export WHITE=0xffC0C8D8
 export RED=0xffBF616A
 export GREEN=0xffA3BE8C
