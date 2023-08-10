@@ -78,6 +78,6 @@
     "gruvboxMaterial.darkContrast": "hard",
     "gruvboxMaterial.darkWorkbench": "flat",
     "redhat.telemetry.enabled": false,
-    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "workbench.colorTheme": "Tokyo Night",
     "workbench.activityBar.visible": false,
 }
