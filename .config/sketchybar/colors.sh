@@ -1,32 +1,40 @@
 #!/bin/bash
 
-export BLACK=0xff191D24
-export WHITE=0xffC0C8D8
+#export BLACK=0xff191D24
+export BLACK=0xff16161e
+
+#export WHITE=0xffC0C8D8
+export WHITE=0xffc0caf5
+
 export RED=0xffBF616A
 export GREEN=0xffA3BE8C
 export BLUE=0xff81A1C1
-export YELLOW=0xffEBCB8B
+
+#export YELLOW=0xffEBCB8B
+export YELLOW=0xffe0af68
+
 export ORANGE=0xffD08770
 export MAGENTA=0xffB48EAD
 export TRANSPARENT=0x00000000
+
 export CYAN=0xFF8FBCBB
+export CYAN=0xFF7dcfff
 
 export SHADOW=0x88000000
+
+#export GREY0=0xff242933
+export GREY0=0xFF1f2335
+
+#export GREY3=0xff434C5E
+export GREY3=0xFF7aa2f7
+
+export GRAY=$GREY0
 export SHADOW_COLOR=$BLACK
 export BAR_BORDER_COLOR=$SHADOW
-
-export GREY0=0xff242933
-export GREY1=0xff2E3440
-export GREY2=0xff3B4252
-export GREY3=0xff434C5E
-export GREY4=0xff4C566A
-export GRAY=$GREY0
-
 export BAR_COLOR=$BLACK
 export ICON_COLOR=$YELLOW
 export LABEL_COLOR=$WHITE
 export BACKGROUND_1=$GRAY
 export BACKGROUND_2=$GRAY
-
 export POPUP_BACKGROUND_COLOR=$BLACK
 export POPUP_BORDER_COLOR=$BLACK
