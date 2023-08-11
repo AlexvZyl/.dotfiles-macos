@@ -42,11 +42,11 @@ truncate_to_repo = false
 [git_branch]
 symbol = ""
 style = "bg:green"
-format = '[[ $symbol $branch ](fg:#090c0c bg:#A3BE8C)]($style)'
+format = '[[ $symbol $branch ](fg:black bg:green)]($style)'
 
 [git_status]
 style = "bg:green"
-format = '[[($all_status$ahead_behind )](fg:#090c0c bg:#A3BE8C)]($style)'
+format = '[[($all_status$ahead_behind )](fg:black bg:green)]($style)'
 
 [time]
 disabled = false
