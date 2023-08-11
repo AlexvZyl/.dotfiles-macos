@@ -27,7 +27,7 @@ error_symbol = '[ ](bold red)'
 
 [directory]
 style = "fg:black bg:blue"
-format = "[ $path ]($style)"
+format = "[ $path]($style)"
 truncation_length = 5
 truncation_symbol = "󰉒 /"
 home_symbol = " "
@@ -42,11 +42,11 @@ truncate_to_repo = false
 [git_branch]
 symbol = ""
 style = "bg:green"
-format = '[[ $symbol $branch ](fg:black bg:green)]($style)'
+format = '[[ $symbol $branch](fg:black bg:green)]($style)'
 
 [git_status]
 style = "bg:green"
-format = '[[($all_status$ahead_behind )](fg:black bg:green)]($style)'
+format = '[[($all_status$ahead_behind)](fg:black bg:green)]($style)'
 
 [time]
 disabled = false
