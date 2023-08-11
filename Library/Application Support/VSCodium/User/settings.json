@@ -1,6 +1,6 @@
 {
     "editor.inlayHints.enabled": "off",
-    "workbench.iconTheme": "eq-material-theme-icons-light",
+    "workbench.iconTheme": "eq-material-theme-icons-palenight",
     "editor.minimap.enabled": false,
     "git.openRepositoryInParentFolders": "always",
     "editor.lineNumbers": "relative",
@@ -78,6 +78,5 @@
     "gruvboxMaterial.darkContrast": "hard",
     "gruvboxMaterial.darkWorkbench": "flat",
     "redhat.telemetry.enabled": false,
-    "workbench.colorTheme": "Tokyo Night",
-    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Ayu Mirage Bordered",
 }

@@ -1,32 +1,32 @@
 format = """
-[](#C0C8D8)\
-[  ](bg:#C0C8D8 fg:#090c0c)\
-[](bg:#5E81AC fg:#C0C8D8)\
+[](bright-white)\
+[  ](fg:black bg:bright-white)\
+[](bg:blue fg:bright-white)\
 $directory\
-[](fg:#5E81AC bg:#A3BE8C)\
+[](fg:blue bg:green)\
 $git_branch\
 $git_status\
-[](fg:#A3BE8C bg:#212736)\
+[](fg:green)\
 $fill\
-[](fg:#D08770)\
+[](fg:red)\
 $username\
-[ ](fg:#EBCB8B bg:#D08770)\
+[ ](fg:yellow bg:red)\
 $hostname\
-[](fg:#C0C8D8 bg:#EBCB8B)\
+[](fg:bright-white bg:yellow)\
 $time\
-[](fg:#C0C8D8)\
+[](fg:bright-white)\
 \n$character"""
 
 [fill]
 symbol = '-'
-style = 'fg:#2E3440'
+style = 'fg:bright-black'
 
 [character]
 success_symbol = '[ ](bold green)'
 error_symbol = '[ ](bold red)'
 
 [directory]
-style = "fg:#C0C8D8 bg:#5E81AC"
+style = "fg:black bg:blue"
 format = "[ $path ]($style)"
 truncation_length = 5
 truncation_symbol = "󰉒 /"
@@ -41,27 +41,26 @@ truncate_to_repo = false
 
 [git_branch]
 symbol = ""
-style = "bg:#A3BE8C"
+style = "bg:green"
 format = '[[ $symbol $branch ](fg:#090c0c bg:#A3BE8C)]($style)'
 
 [git_status]
-style = "bg:#A3BE8C"
+style = "bg:green"
 format = '[[($all_status$ahead_behind )](fg:#090c0c bg:#A3BE8C)]($style)'
 
 [time]
 disabled = false
 time_format = "%R"
-style = "bg:#C0C8D8"
-format = '[[  $time ](fg:#090c0c bg:#C0C8D8)]($style)'
+format = '[[  $time ](fg:black bg:bright-white)]($style)'
 
 [hostname]
 ssh_only = true
-format = '[󰌘 ](fg:#090c0c bg:yellow)[$ssh_symbol](fg:#090c0c bg:yellow)'
+format = '[󰌘 ](fg:black bg:yellow)[$ssh_symbol](fg:black bg:yellow)'
 trim_at = ''
 disabled = false
 
 [username]
-style_user = "bg:#D08770 fg:#090c0c"
+style_user = "bg:red fg:black"
 format = '[ ]($style)[$user]($style)'
 disabled = false
 show_always = true

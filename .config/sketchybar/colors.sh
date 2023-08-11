@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export BLACK=0xff15181E
+export BLACK=0xff191D24
 export WHITE=0xffC0C8D8
 export RED=0xffBF616A
 export GREEN=0xffA3BE8C
@@ -11,7 +11,7 @@ export MAGENTA=0xffB48EAD
 export TRANSPARENT=0x00000000
 export CYAN=0xFF8FBCBB
 
-export SHADOW=0xCC000000
+export SHADOW=0x88000000
 export SHADOW_COLOR=$BLACK
 export BAR_BORDER_COLOR=$SHADOW
 
