@@ -7,13 +7,18 @@ export BLACK=0xff16161e
 export WHITE=0xffc0caf5
 
 export RED=0xffBF616A
-export GREEN=0xffA3BE8C
+
+#export GREEN=0xffA3BE8C
+export GREEN=0xFF9ece6a
+
 export BLUE=0xff81A1C1
 
 #export YELLOW=0xffEBCB8B
 export YELLOW=0xffe0af68
 
-export ORANGE=0xffD08770
+#export ORANGE=0xffD08770
+export ORANGE=0xFFff9e64
+
 export MAGENTA=0xffB48EAD
 export TRANSPARENT=0x00000000
 
