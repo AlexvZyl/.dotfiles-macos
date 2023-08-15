@@ -63,6 +63,11 @@
     "window.titleBarStyle": "native",
     "apc.electron": {
         "frame": false,
+        "transparent": true,
+        // "titleBarStyle": "hiddenInset",
+        // "vibrancy": "ultra-dark",
+        // "opacity": 1,
+        // "visualEffectState": "active"
     },
     "apc.activityBar": {
         // "size": 38,
@@ -75,8 +80,9 @@
         "height": 30,
         "fontSize": 13
     },
+    
     "gruvboxMaterial.darkContrast": "hard",
     "gruvboxMaterial.darkWorkbench": "flat",
     "redhat.telemetry.enabled": false,
-    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "workbench.colorTheme": "Tokyo Night",
 }
