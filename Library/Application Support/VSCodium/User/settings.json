@@ -65,8 +65,8 @@
         "frame": false,
         "transparent": true,
         // "titleBarStyle": "hiddenInset",
-        // "vibrancy": "ultra-dark",
-        // "opacity": 1,
+        "vibrancy": "ultra-dark",
+        "opacity": 1,
         // "visualEffectState": "active"
     },
     "apc.activityBar": {

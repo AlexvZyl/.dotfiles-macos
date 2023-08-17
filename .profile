@@ -11,7 +11,7 @@ alias lgd='lazygit-dotfiles'
 
 # Remoting
 alias ssh='kitty +kitten ssh'
-alias rsync-aid='rsync -avz --progress --exclude aws/ --exclude data/ --exclude output/ --exclude beats-models AdvanceGuidance_EC2:/home/ubuntu/mnt/tb-mdel-dev/ ~/AdvanceGuidance/Remotes/tb-mdel-dev'
+alias rsync-aid='rsync -avz --progress --exclude aws/ --exclude data/ --exclude src/ImpulseResponse/Recordings/ --exclude output/ --exclude beats-models AdvanceGuidance_EC2:/home/ubuntu/mnt/tb-mdel-dev/ ~/AdvanceGuidance/Remotes/tb-mdel-dev'
 
 # Pyenv
 export PATH="$HOME/.pyenv/bin:$PATH"
