@@ -49,7 +49,7 @@
         }
     },
     "editor.fontFamily": "JetBrainsMono Nerd Font",
-    "editor.fontSize": 13,
+    "editor.fontSize": 14,
     "editor.fontLigatures": true,
     "editor.renderLineHighlight": "none",
     "editor.renderLineHighlightOnlyWhenFocus": true,
@@ -85,6 +85,6 @@
     "gruvboxMaterial.darkWorkbench": "flat",
     "redhat.telemetry.enabled": false,
     "workbench.colorTheme": "Tokyo Night",
-    "window.zoomLevel": 1,
     "python.envFile": "${workspaceF older}/.env",
+    "window.zoomLevel": 1,
 }
