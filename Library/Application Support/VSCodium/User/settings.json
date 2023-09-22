@@ -86,5 +86,14 @@
     "redhat.telemetry.enabled": false,
     "workbench.colorTheme": "Tokyo Night",
     "python.envFile": "${workspaceF older}/.env",
-    "window.zoomLevel": 1,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "flake8.severity": {
+        "E": "Information",
+        "F": "Hint",
+        "W": "Error"
+    },
+    "terminal.integrated.tabs.enabled": false,
+    "workbench.activityBar.visible": false,
 }
